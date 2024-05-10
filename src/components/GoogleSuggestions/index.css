@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.google-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  box-shadow: 4px 4px 16px 4px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-logo {
+  width: 350px;
+  height: 150px;
+}
+.suggestions-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px #64748b;
+  width: 600px;
+  padding: 20px;
+  outline: none;
+}
+.search-input {
+  border-style: none;
+  outline: none;
+  font-size: 25px;
+  width: 550px;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+.suggestions-container div {
+  display: flex;
+}
+.suggestions-container div img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.suggestions-container ul {
+  padding-left: 10px;
+}
