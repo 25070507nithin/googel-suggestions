@@ -39,6 +39,7 @@ class GoogleSuggestions extends Component {
               onChange={this.onChangeOfSearchInput}
               className="search-input"
               type="search"
+              placeholder="search google"
               value={searchInput}
             />
           </div>
